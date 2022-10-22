@@ -25,7 +25,7 @@ for l_row in range (5):
 
 for a_row in range (5):
     for a_column in range (5):
-        if a_row == 2 or (a_row == 0 and (a_column == 1 or a_column == 2 or a_column == 3)) or ((a_row == 1 or a_row == 3 or a_row == 4) and (a_column == 0 or a_column == 4)):
+        if a_row == 3 or (a_row == 0 and (a_column == 1 or a_column == 2 or a_column == 3)) or ((a_row == 1 or a_row == 2 or a_row == 4) and (a_column == 0 or a_column == 4)):
             A [a_column][a_row] = "*"
 
 for row in range (5):
