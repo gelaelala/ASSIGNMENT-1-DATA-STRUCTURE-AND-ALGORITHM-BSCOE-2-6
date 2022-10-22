@@ -10,7 +10,7 @@ A = [[" " for row in range (5)] for column in range (5)]
 
 for g_row in range (5):
     for g_column in range (5):
-        if (g_row == 0 and g_column != 0) or ((g_row != 0 and g_row != 4) and g_column == 0) or (g_row == 4 and (g_column != 0 and g_column != 4)) or ((g_row == 2 or g_row == 3) and g_column == 4) or (g_row == 2 and g_column != 0 and g_column != 1):
+        if (g_row == 0 and g_column != 0) or ((g_row != 0 and g_row != 4) and g_column == 0) or (g_row == 4 and (g_column != 0 and g_column != 4)) or (g_row == 3 and g_column == 4) or (g_row == 2 and (g_column != 0 and g_column != 1)):
             G [g_column][g_row]= "*"
 
 for e_row in range (5):
